@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BEAE97EDF728DCB91776563 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0EBBA0B0CF16F7A0D835B163 /* FirebaseFirestore */; };
+		69A408B75AB6396440D28160 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E195622ADD4D812AB3182CAB /* FirebaseCore */; };
+		6EDED8C575734DB7FA4F6B3E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 15A956EA59ED3000BC0F86AC /* GoogleSignIn */; };
+		793599C84322128E2920931B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 77654ECD05031A39DBAF5C31 /* FirebaseAuth */; };
+		83F281EB4515EEC999677389 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 55BAF693CA4F0135506422A6 /* FacebookCore */; };
+		C4A306D3B63AF5A46C4BB67A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = EE59876BE100C7C7285BEBF9 /* FacebookLogin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64BDBEE92F94C3CB0005B0E8 /* Prism: Life Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prism: Life Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		64BDBEEB2F94C3CB0005B0E8 /* Prism */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Prism;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BDBEE62F94C3CB0005B0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A408B75AB6396440D28160 /* FirebaseCore in Frameworks */,
+				793599C84322128E2920931B /* FirebaseAuth in Frameworks */,
+				5BEAE97EDF728DCB91776563 /* FirebaseFirestore in Frameworks */,
+				6EDED8C575734DB7FA4F6B3E /* GoogleSignIn in Frameworks */,
+				83F281EB4515EEC999677389 /* FacebookCore in Frameworks */,
+				C4A306D3B63AF5A46C4BB67A /* FacebookLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BDBEE02F94C3CB0005B0E8 = {
+			isa = PBXGroup;
+			children = (
+				64BDBEEB2F94C3CB0005B0E8 /* Prism */,
+				64BDBEEA2F94C3CB0005B0E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64BDBEEA2F94C3CB0005B0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BDBEE92F94C3CB0005B0E8 /* Prism: Life Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BDBEE82F94C3CB0005B0E8 /* Prism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BDBEF42F94C3CC0005B0E8 /* Build configuration list for PBXNativeTarget "Prism" */;
+			buildPhases = (
+				64BDBEE52F94C3CB0005B0E8 /* Sources */,
+				64BDBEE62F94C3CB0005B0E8 /* Frameworks */,
+				64BDBEE72F94C3CB0005B0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				64BDBEEB2F94C3CB0005B0E8 /* Prism */,
+			);
+			name = Prism;
+			packageProductDependencies = (
+				E195622ADD4D812AB3182CAB /* FirebaseCore */,
+				77654ECD05031A39DBAF5C31 /* FirebaseAuth */,
+				0EBBA0B0CF16F7A0D835B163 /* FirebaseFirestore */,
+				15A956EA59ED3000BC0F86AC /* GoogleSignIn */,
+				55BAF693CA4F0135506422A6 /* FacebookCore */,
+				EE59876BE100C7C7285BEBF9 /* FacebookLogin */,
+			);
+			productName = Prism;
+			productReference = 64BDBEE92F94C3CB0005B0E8 /* Prism: Life Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BDBEE12F94C3CB0005B0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					64BDBEE82F94C3CB0005B0E8 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 64BDBEE42F94C3CB0005B0E8 /* Build configuration list for PBXProject "Prism" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64BDBEE02F94C3CB0005B0E8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2E23450BC777638A3BDA3E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2B0C504BF05E77E75C8829F8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				B1BFBA3530AEAF4FB183F54F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 64BDBEEA2F94C3CB0005B0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BDBEE82F94C3CB0005B0E8 /* Prism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BDBEE72F94C3CB0005B0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BDBEE52F94C3CB0005B0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64BDBEF22F94C3CC0005B0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64BDBEF32F94C3CC0005B0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64BDBEF52F94C3CC0005B0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prism/Prism.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D8DX6H6VXF;
+				ENABLE_PREVIEWS = YES;
+				FACEBOOK_APP_ID = "";
+				FACEBOOK_CLIENT_TOKEN = "";
+				FACEBOOK_DISPLAY_NAME = Prism;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Prism-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanagarn.Prism;
+				PRODUCT_NAME = "Prism: Life Tracker";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64BDBEF62F94C3CC0005B0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prism/Prism.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D8DX6H6VXF;
+				ENABLE_PREVIEWS = YES;
+				FACEBOOK_APP_ID = "";
+				FACEBOOK_CLIENT_TOKEN = "";
+				FACEBOOK_DISPLAY_NAME = Prism;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Prism-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanagarn.Prism;
+				PRODUCT_NAME = "Prism: Life Tracker";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BDBEE42F94C3CB0005B0E8 /* Build configuration list for PBXProject "Prism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BDBEF22F94C3CC0005B0E8 /* Debug */,
+				64BDBEF32F94C3CC0005B0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BDBEF42F94C3CC0005B0E8 /* Build configuration list for PBXNativeTarget "Prism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BDBEF52F94C3CC0005B0E8 /* Debug */,
+				64BDBEF62F94C3CC0005B0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B0C504BF05E77E75C8829F8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		2E23450BC777638A3BDA3E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.1;
+			};
+		};
+		B1BFBA3530AEAF4FB183F54F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 18.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EBBA0B0CF16F7A0D835B163 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E23450BC777638A3BDA3E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		15A956EA59ED3000BC0F86AC /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B0C504BF05E77E75C8829F8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		55BAF693CA4F0135506422A6 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1BFBA3530AEAF4FB183F54F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		77654ECD05031A39DBAF5C31 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E23450BC777638A3BDA3E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E195622ADD4D812AB3182CAB /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E23450BC777638A3BDA3E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		EE59876BE100C7C7285BEBF9 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1BFBA3530AEAF4FB183F54F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 64BDBEE12F94C3CB0005B0E8 /* Project object */;
+}
